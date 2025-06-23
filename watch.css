@@ -1,0 +1,57 @@
+#title{
+    text-align: center;
+    margin: auto;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+#image{
+    text-align: center;
+    width: 60px;
+    height: auto;
+}
+
+#counter{
+    text-align: center;
+    margin: auto;
+    font-size: 120px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#buttonloc{
+    text-align: center;
+    margin: auto;
+}
+
+#start{
+    background: #004f0b;
+    background: linear-gradient(90deg,rgba(0, 79, 11, 1) 0%, rgba(9, 121, 28, 1) 35%, rgba(0, 255, 42, 1) 100%);
+    font-size: 20px;
+    color: white;
+}
+
+#log{
+    font-size: 20px;
+    background: #1b0024;
+    background: linear-gradient(90deg,rgba(27, 0, 36, 1) 0%, rgba(108, 9, 121, 1) 35%, rgba(191, 0, 255, 1) 100%);
+   color: white;
+}
+
+#clear{
+    font-size: 20px;
+    background: #2f608a;
+    background: radial-gradient(circle,rgba(47, 96, 138, 1) 0%, rgba(8, 45, 168, 1) 100%);
+    color: white;
+}
+#stop{
+    background: #4f0000;
+    background: linear-gradient(90deg,rgba(79, 0, 0, 1) 0%, rgba(121, 9, 9, 1) 35%, rgba(255, 0, 0, 1) 100%);
+    font-size: 20px;
+    color: white;
+}
+
+body{
+    background: #2f608a;
+background: radial-gradient(circle,rgba(47, 96, 138, 1) 0%, rgba(8, 45, 168, 1) 100%);
+}
