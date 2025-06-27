@@ -9,6 +9,8 @@ const stop = document.getElementById("stop");
 const clear = document.getElementById("clear");
 let count = 0;
 let secs = 0;
+let mins = 0;
+let hs = 0;
 let i = 0;
 let interval;
 
@@ -23,11 +25,29 @@ let interval;
             if (i == 0) {
                 secs++;
                 seconds.textContent = secs;
+                    if(secs==60){
+                        secs = 0;
+                        mins++;
+                        minutes.textContent = mins;
+                    }
+                      if(mins==60){
+                             mins = 0;
+                             hs++;
+                             hours.textContent = hs;
+                        }
+                        
             }
         }, 1000); 
     };
-
+    
     clear.onclick = function(){
-        i = 1;
         secs = 0;
+        mins = 0;
+        hrs = 0;
+    
+        document.getElementById("seconds").textContent = "00";
+        document.getElementById("minutes").textContent = "00";
+        document.getElementById("hours").textContent = "00";
     }
+    
+   
